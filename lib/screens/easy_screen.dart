@@ -30,7 +30,7 @@ class Screen3 extends StatefulWidget {
 class _Screen3State extends State<Screen3> {
   int currentQuestionIndex = 0;
   int score = 0;
-  int _counter = 60;
+  int _counter = 30;
   Timer? _timer;
 
   @override
@@ -40,7 +40,7 @@ class _Screen3State extends State<Screen3> {
   }
 
   void startTimer() {
-    _counter = 60;
+    _counter = 30;
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
       setState(() {
         if (_counter > 0) {
