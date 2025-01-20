@@ -4,11 +4,6 @@ import 'package:QuizGame/src/app_root.dart';
 
 void main() {
   runApp(AppRoot());
-
-  int x ;
-
-
-
 }
 
 
